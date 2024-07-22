@@ -15,6 +15,9 @@ echo "$CRON_JOB" >> new_crontab.txt
 # 새로운 크론탭 파일을 적용
 sudo crontab new_crontab.txt
 
+# 위와 같이 추가한 크론탭은 hostname이 다른 사용자에 의해 등록된것일수 있음
+whoami
+
 # 임시 파일 삭제
 sudo rm current_crontab.txt new_crontab.txt
 
