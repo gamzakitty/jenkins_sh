@@ -12,9 +12,9 @@ echo $(sudo grep -v "$CRON_JOB" current_crontab.txt) > new_crontab.txt
 echo "********"
 ls
 echo "---------"
-cat current_crontab.txt
+echo $(cat current_crontab.txt)
 echo "---------"
-cat new_crontab.txt
+echo $(cat new_crontab.txt)
 echo "*********"
 
 # 새롭게 구문 추가
