@@ -11,6 +11,8 @@ echo "---------"
 # 텍스트파일 생성
 touch current_crontab.txt
 touch new_crontab.txt
+echo "hello world!!!!!!!!!!" > hello.txt
+cat hello.txt
 
 # 현재 사용자 크론탭을 임시 파일에 백업
 sudo crontab -l > current_crontab.txt
