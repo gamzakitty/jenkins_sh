@@ -21,4 +21,4 @@ whoami
 # 임시 파일 삭제
 sudo rm current_crontab.txt new_crontab.txt
 
-echo "크론탭에서 '$CRON_JOB' 구문을 제거했습니다."
+echo "크론탭에서 '$CRON_JOB' 구문을 갱신했습니다."
